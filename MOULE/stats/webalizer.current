@@ -1,0 +1,214 @@
+# Webalizer V2.23-05 Incremental Data - 10/05/2015 14:48:22
+2015 10 5 14 48 22
+135 76 1 39 5 3 14986864 62 3 0 0 0
+1 35 82 5 5
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+135 76 14986864 1 62 3 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+18 0 20838 16 0 0
+82 41 7542859 45 0 0
+35 35 7423167 1 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0
+0
+0
+76
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+52
+2
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+5
+0
+0
+0
+0
+0
+# -urls- 
+/css/app.css
+0 2 0 9284 0 0 0 0
+/bundles/framework/css/body.css
+0 1 0 3146 0 0 0 0
+/images/ico_print.png
+1 2 0 1336 0 0 0 0
+/images/home_img01.png
+1 2 0 268276 0 0 0 0
+/favicon.png
+1 2 0 1597 0 0 0 0
+/images/list_style_type02.png
+1 2 0 838 0 0 0 0
+/js/owl.carousel.min.js
+0 2 0 13633 0 0 0 0
+/css/foundation.css
+0 2 0 26114 0 0 0 0
+/images/ico_pwd.png
+1 2 0 1094 0 0 0 0
+/images/ico_map.png
+1 2 0 1260 0 0 0 0
+/images/logo_footer.png
+1 2 0 7036 0 0 0 0
+/images/ico_aro.png
+1 2 0 1210 0 0 0 0
+/images/home_img02.png
+1 2 0 252612 0 0 0 0
+/images/logo.png
+1 2 0 7062 0 0 0 0
+/images/slider/slider03.jpg
+1 2 0 3024080 0 0 0 0
+/js/app.js
+0 2 0 1856 0 0 0 0
+/images/gotop.png
+1 2 0 2218 0 0 0 0
+/css/owl.carousel.css
+0 2 0 1730 0 0 0 0
+/css/owl.transitions.css
+0 2 0 2064 0 0 0 0
+/images/ico_access.jpg
+1 2 0 4360 0 0 0 0
+/css/owl.theme.css
+0 2 0 1886 0 0 0 0
+/bundles/framework/css/exception.css
+0 1 0 1121 0 0 0 0
+/images/list_style_type01.png
+1 2 0 852 0 0 0 0
+/images/list_style_type03.png
+1 2 0 1058 0 0 0 0
+/images/home_img03.png
+1 2 0 199212 0 0 0 0
+/contact
+0 1 0 3077 0 0 0 0
+/images/search_form_submit.png
+1 2 0 2976 0 0 0 0
+/images/list_style_type04b.png
+1 2 0 966 0 0 0 0
+/images/ico_user.png
+1 2 0 1154 0 0 0 0
+/images/ico_phone.png
+1 2 0 1220 0 0 0 0
+/
+0 4 0 14913 1 0 0 0
+/bundles/framework/css/structure.css
+0 1 0 931 0 0 0 0
+/images/list_style_type04.png
+1 2 0 934 0 0 0 0
+/jquery-ui-1.11.4.custom/external/jquery/jquery.js
+0 2 0 162978 0 0 0 0
+/images/slider/slider02.jpg
+1 2 0 3664579 0 0 0 0
+/images/titres_separator.png
+1 2 0 970 0 0 0 0
+/images/slider/slider04.jpg
+1 2 0 4009650 0 0 0 0
+/images/slider/slider01.jpg
+1 2 0 3160732 0 0 0 0
+/css/responsive.css
+0 2 0 2190 0 0 0 0
+# End Of Table - urls
+# -sites- (monthly)
+109.190.123.67
+0 135 76 14986864 3 1444056498 0 0
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+109.190.123.67
+0 135 76 14986864 3 1444056498 0 0
+/
+# End Of Table - sites (daily)
+# -referrers- 
+http://bas-france.fr.phptest1.sercopw.fr/
+1 55
+- (Direct Request)
+0 58
+http://bas-france.fr.phptest1.sercopw.fr/css/app.css
+1 15
+http://bas-france.fr.phptest1.sercopw.fr/contact
+1 4
+http://bas-france.fr.phptest1.sercopw.fr/product/
+1 3
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; NP06; rv:11.0) like Gecko
+0 1
+Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; NP06; rv:11.0) like Gecko
+0 34
+Mozilla/5.0 (Windows NT 6.3; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
+0 100
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

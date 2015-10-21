@@ -1,0 +1,31 @@
+{% extends 'PointWebAdminBundle::base.html.twig' %}
+
+{% block content_right %}
+    <h1>Calendrier {{ year }}</h1>
+    <div class="btn-group-left">
+        <div class="btn-group">
+            <a href="{{ path('point_web_calendar_admin', {'year':lastYear}) }}" class="btn btn-primary"><i
+                        class="fa fa-arrow-left"></i> Année precedent</a>
+            <a href="{{ path('point_web_calendar_admin', {'year':nextYear}) }}" class="btn btn-primary">Année
+                suivant <i class="fa fa-arrow-right"></i></a>
+        </div>
+    </div>
+    <div class="btn-group-left filter-calendar">
+        <form action="{{ path('point_web_calendar_admin', {'year':year}) }}" method="post">
+            <select id="user_select" name="id_user" class="form-control">
+                <option value="" {% if selected_user == 0 %}selected="selected"{% endif %}>Sélectionnez un utilisateur
+                </option>
+                {% for user in users %}
+                    <option value="{{ user.id }}"
+                            {% if selected_user == user.id %}selected="selected"{% endif %}>{{ user.fullname }}</option>
+                {% endfor %}
+            </select>
+            <button type="submit" id="filter_calendar" name="filter" class="btn btn-success">Filtrer<div class="ripple-wrapper"></div></button>
+        </form>
+    </div>
+    <div class="btn-group-right">
+        <a href="{{ path('admin_calendarevent_new') }}" class="btn btn-primary"><i class="fa fa-plus-circle"></i>
+            Ajouter</a>
+    </div>
+    {{ calendar|raw }}
+{% endblock %}

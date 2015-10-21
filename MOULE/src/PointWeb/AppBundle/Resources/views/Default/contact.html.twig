@@ -1,0 +1,79 @@
+{% extends 'PointWebAppBundle::base.html.twig' %}
+{% block content %}
+{{ form_start(form) }}
+<fieldset>
+    <div>
+        {{ form_label(form.lastname) }}
+        <div>
+            {{ form_errors(form.lastname) }}
+            {{ form_widget(form.lastname) }}
+        </div>
+    </div>
+    <div>
+        {{ form_label(form.firstname) }}
+        <div>
+            {{ form_errors(form.firstname) }}
+            {{ form_widget(form.firstname) }}
+        </div>
+    </div>
+    <div>
+        {{ form_label(form.phone) }}
+        <div>
+            {{ form_errors(form.phone) }}
+            {{ form_widget(form.phone) }}
+        </div>
+    </div>
+    <div>
+        {{ form_label(form.email) }}
+        <div>
+            {{ form_errors(form.email) }}
+            {{ form_widget(form.email) }}
+        </div>
+    </div>
+    <div>
+        {{ form_label(form.address) }}
+        <div>
+            {{ form_errors(form.address) }}
+            {{ form_widget(form.address) }}
+        </div>
+    </div>
+    <div>
+        {{ form_label(form.zipCode) }}
+        <div>
+            {{ form_errors(form.zipCode) }}
+            {{ form_widget(form.zipCode) }}
+        </div>
+    </div>
+    <div>
+        {{ form_label(form.city) }}
+        <div>
+            {{ form_errors(form.city) }}
+            {{ form_widget(form.city) }}
+        </div>
+    </div>
+    <div>
+        {{ form_label(form.message) }}
+        <div>
+            {{ form_errors(form.message) }}
+            {{ form_widget(form.message) }}
+        </div>
+    </div>
+
+
+
+    <div id="captcha">
+        <h1> Captcha </h1>
+        {% if captcha != "" %}<p class="error"> mauvaise r&eacute;ponse </p>{% endif %}
+        <div id="captcha_content">
+            <p><strong> Question : </strong><span>{{ question }}</span></p>
+            <p><strong> R&eacute;ponse :  </strong><input type="text" name="captcha" placeholder="entrez la reponse" value="{{ captcha }}"/></p>
+        </div>
+    </div>
+
+
+
+
+
+</fieldset>
+{{ form_end(form) }}
+{% endblock %}
