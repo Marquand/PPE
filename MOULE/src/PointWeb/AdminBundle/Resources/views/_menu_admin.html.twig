@@ -1,16 +1,16 @@
-<li {% if app.request.attributes.get('_route') starts with 'admin_menu' %}class="active"{% endif %}>
-    <a href="{{ path('admin_menu') }}">{{ "Menu" }}</a>
-</li>
-<li class="dropdown {% if app.request.attributes.get('_route') starts with 'admin_product' or app.request.attributes.get('_route') starts with 'admin_category' %}active{% endif %}">
-    <a href="#" data-target="#" class="dropdown-toggle" data-toggle="dropdown">{{ "Produits" }} <b
-                class="caret"></b></a>
-    <ul class="dropdown-menu">
-        <li {% if app.request.attributes.get('_route') starts with 'admin_product' %}class="active"{% endif %}><a
-                    href="{{ path('admin_product') }}">{{ "Produits" }}</a></li>
-        <li {% if app.request.attributes.get('_route') starts with 'admin_category' %}class="active"{% endif %}><a
-                    href="{{ path('admin_category') }}">{{ "Catégories" }}</a></li>
-    </ul>
-</li>
+{#<li {% if app.request.attributes.get('_route') starts with 'admin_menu' %}class="active"{% endif %}>#}
+    {#<a href="{{ path('admin_menu') }}">{{ "Menu" }}</a>#}
+{#</li>#}
+{#<li class="dropdown {% if app.request.attributes.get('_route') starts with 'admin_product' or app.request.attributes.get('_route') starts with 'admin_category' %}active{% endif %}">#}
+    {#<a href="#" data-target="#" class="dropdown-toggle" data-toggle="dropdown">{{ "Produits" }} <b#}
+                {#class="caret"></b></a>#}
+    {#<ul class="dropdown-menu">#}
+        {#<li {% if app.request.attributes.get('_route') starts with 'admin_product' %}class="active"{% endif %}><a#}
+                    {#href="{{ path('admin_product') }}">{{ "Produits" }}</a></li>#}
+        {#<li {% if app.request.attributes.get('_route') starts with 'admin_category' %}class="active"{% endif %}><a#}
+                    {#href="{{ path('admin_category') }}">{{ "Catégories" }}</a></li>#}
+    {#</ul>#}
+{#</li>#}
 
 <li class="dropdown {% if app.request.attributes.get('_route') starts with 'admin_referencing' or app.request.attributes.get('_route') starts with 'admin_keywords' %}active{% endif %}">
     <a href="#" data-target="#" class="dropdown-toggle" data-toggle="dropdown">{{ "Referencement" }} <b
@@ -26,21 +26,21 @@
 <li {% if app.request.attributes.get('_route') starts with 'admin_news' %}class="active"{% endif %}>
     <a href="{{ path('admin_news') }}">{{ "News" }}</a>
 </li>
-<li {% if app.request.attributes.get('_route') starts with 'admin_partner' %}class="active"{% endif %}>
-    <a href="{{ path('admin_partner') }}">{{ "Partenaires" }}</a>
+<li {% if app.request.attributes.get('_route') starts with 'article' %}class="active"{% endif %}>
+    <a href="{{ path('article') }}">{{ "Veille" }}</a>
 </li>
-<li {% if app.request.attributes.get('_route') starts with 'admin_guestbook' %}class="active"{% endif %}>
-    <a href="{{ path('admin_guestbook') }}">{{ "Livre d'or" }}</a>
-</li>
-<li {% if app.request.attributes.get('_route') starts with 'admin_faq' %}class="active"{% endif %}>
-    <a href="{{ path('admin_faq') }}">{{ "F.A.Q" }}</a>
-</li>
-<li {% if app.request.attributes.get('_route') starts with 'admin_gallery' %}class="active"{% endif %}>
-    <a href="{{ path('admin_gallery') }}">{{ "Galeries" }}</a>
-</li>
-<li {% if app.request.attributes.get('_route') starts with 'admin_folder' %}class="active"{% endif %}>
-    <a href="{{ path('admin_folder') }}">{{ "Gestion documentaire" }}</a>
-</li>
+{#<li {% if app.request.attributes.get('_route') starts with 'admin_guestbook' %}class="active"{% endif %}>#}
+    {#<a href="{{ path('admin_guestbook') }}">{{ "Livre d'or" }}</a>#}
+{#</li>#}
+{#<li {% if app.request.attributes.get('_route') starts with 'admin_faq' %}class="active"{% endif %}>#}
+    {#<a href="{{ path('admin_faq') }}">{{ "F.A.Q" }}</a>#}
+{#</li>#}
+{#<li {% if app.request.attributes.get('_route') starts with 'admin_gallery' %}class="active"{% endif %}>#}
+    {#<a href="{{ path('admin_gallery') }}">{{ "Galeries" }}</a>#}
+{#</li>#}
+{#<li {% if app.request.attributes.get('_route') starts with 'admin_folder' %}class="active"{% endif %}>#}
+    {#<a href="{{ path('admin_folder') }}">{{ "Gestion documentaire" }}</a>#}
+{#</li>#}
 <li {% if app.request.attributes.get('_route') starts with 'admin_contact' %}class="active"{% endif %}>
     <a href="{{ path('admin_contact') }}">{{ "Contact" }}</a>
 </li>

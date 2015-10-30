@@ -4,6 +4,34 @@ document.createElement('aside');
 document.createElement('section');
 document.createElement('footer');
 
+//FOOTER
+$(document).ready(function($) {
+
+    $(window).on('scroll', function() {
+
+        //ADD .TIGHT
+        if ($(window).scrollTop() + $(window).height() > $('.wrapper').outerHeight()) {
+            $('body').addClass('tight');
+        } else {
+            $('body').removeClass('tight');
+        }
+    });
+
+    //BACK TO PRESENTATION MODE
+    $("html").on("click", "body.tight .wrapper", function() {
+        $('html, body').animate({
+            scrollTop: $('.wrapper').outerHeight() - $(window).height()
+        }, 500);
+    });
+
+});
+
+//VEILLE TECHNOLOGIQUE ITEM
+$(window).load(function(){
+    $('.post-module').hover(function() {
+        $(this).find('.description').stop().animate({height: "toggle", opacity: "toggle"}, 300);
+    });
+});
 jQuery(window).scroll(function () {
     if (jQuery(window).scrollTop() == 0) {
         jQuery('#scrollToTop').fadeOut("fast");

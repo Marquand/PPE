@@ -1,0 +1,4 @@
+services:
+#    point_web_veille.example:
+#        class: PointWeb\VeilleBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

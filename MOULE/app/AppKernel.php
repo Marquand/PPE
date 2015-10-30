@@ -31,6 +31,8 @@ class AppKernel extends Kernel
             new PointWeb\CalendarBundle\PointWebCalendarBundle(),
             new PointWeb\ReferencingBundle\PointWebReferencingBundle(),
             new PointWeb\PageBundle\PointWebPageBundle(),
+            new PointWeb\PrezBundle\PointWebPrezBundle(),
+            new PointWeb\VeilleBundle\PointWebVeilleBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

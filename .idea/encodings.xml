@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/MOULE/src/PointWeb/AppBundle/Resources/views/_header.html.twig" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MOULE/src/PointWeb/PrezBundle/Resources/views/Default/index.html.twig" charset="UTF-8" />
+  </component>
+</project>

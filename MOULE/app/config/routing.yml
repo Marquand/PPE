@@ -1,3 +1,11 @@
+point_web_veille:
+    resource: "@PointWebVeilleBundle/Resources/config/routing.yml"
+    prefix:   /
+
+point_web_prez:
+    resource: "@PointWebPrezBundle/Resources/config/routing.yml"
+    prefix:   /
+
 point_web_page:
     resource: "@PointWebPageBundle/Resources/config/routing.yml"
     prefix:   /
