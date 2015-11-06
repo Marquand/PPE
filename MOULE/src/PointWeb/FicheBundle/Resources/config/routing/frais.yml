@@ -1,0 +1,30 @@
+admin_frais:
+    path:     /
+    defaults: { _controller: "PointWebFicheBundle:Frais:index" }
+
+admin_frais_show:
+    path:     /{id}/show
+    defaults: { _controller: "PointWebFicheBundle:Frais:show" }
+
+admin_frais_new:
+    path:     /new
+    defaults: { _controller: "PointWebFicheBundle:Frais:new" }
+
+admin_frais_create:
+    path:     /create
+    defaults: { _controller: "PointWebFicheBundle:Frais:create" }
+    methods:  POST
+
+admin_frais_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "PointWebFicheBundle:Frais:edit" }
+
+admin_frais_update:
+    path:     /{id}/update
+    defaults: { _controller: "PointWebFicheBundle:Frais:update" }
+    methods:  [POST, PUT]
+
+admin_frais_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "PointWebFicheBundle:Frais:delete" }
+    methods:  [POST, DELETE]

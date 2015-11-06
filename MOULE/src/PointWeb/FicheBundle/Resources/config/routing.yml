@@ -1,0 +1,3 @@
+point_web_fiche_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: PointWebFicheBundle:Default:index }

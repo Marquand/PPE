@@ -1,0 +1,59 @@
+{% extends '::base.html.twig' %}
+
+{% block body -%}
+    <h1>Frais list</h1>
+
+    <table class="records_list">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Qtnuit</th>
+                <th>Qtrepas</th>
+                <th>Qtkm</th>
+                <th>Prixnuit</th>
+                <th>Prixrepas</th>
+                <th>Prixkm</th>
+                <th>Totalnuit</th>
+                <th>Totalrepas</th>
+                <th>Totalkm</th>
+                <th>Total</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for entity in entities %}
+            <tr>
+                <td><a href="{{ path('admin_frais_show', { 'id': entity.id }) }}">{{ entity.id }}</a></td>
+                <td>{{ entity.qtNuit }}</td>
+                <td>{{ entity.qtRepas }}</td>
+                <td>{{ entity.qtKm }}</td>
+                <td>{{ entity.prixNuit }}</td>
+                <td>{{ entity.prixRepas }}</td>
+                <td>{{ entity.prixKm }}</td>
+                <td>{{ entity.totalNuit }}</td>
+                <td>{{ entity.totalRepas }}</td>
+                <td>{{ entity.totalKm }}</td>
+                <td>{{ entity.total }}</td>
+                <td>
+                <ul>
+                    <li>
+                        <a href="{{ path('admin_frais_show', { 'id': entity.id }) }}">show</a>
+                    </li>
+                    <li>
+                        <a href="{{ path('admin_frais_edit', { 'id': entity.id }) }}">edit</a>
+                    </li>
+                </ul>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+        <ul>
+        <li>
+            <a href="{{ path('admin_frais_new') }}">
+                Create a new entry
+            </a>
+        </li>
+    </ul>
+    {% endblock %}
